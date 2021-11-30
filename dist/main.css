@@ -1,0 +1,32 @@
+div {
+  font-family: 'Ubuntu', sans-serif;
+}
+#header {
+  display: flex;
+  width: auto;
+  height: auto;
+  min-height: 70px;
+  max-height: 100px;
+  background: rgb(56, 56, 56);
+}
+#logo {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#logo1,
+#logo2 {
+  font-family: 'Fredoka One', cursive;
+}
+#logo1 {
+  color: white;
+}
+#logo2 {
+  color: rgb(10, 185, 238);
+}
