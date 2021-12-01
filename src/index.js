@@ -1,1 +1,3 @@
-console.log('Yee');
+import { getCurrentWeather } from './fetchWeather';
+
+getCurrentWeather('New York');

@@ -11,16 +11,26 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap"
       rel="stylesheet"
     />
+    <script src="main.js" defer></script>
     <title>cloudburst</title>
   </head>
   <body>
     <header id="header">
       <div id="logo">
         <div id="logo1">cloud</div>
-        <div id="logo2">burst</div>
+        <div id="logo2">Burst</div>
+      </div>
+      <div id="search-container">
+        <input type="text" id="searchbar" placeholder="Search for a city">
+          <button id="search-button">Search</button>
+        </input>
       </div>
     </header>
-    <div>test</div>
-    <script src="main.js"></script>
+    <div id="current-weather-card">
+      <div><div id="current-location"></div></div>
+      <div>Current temperature:<div id="current-temperature"></div></div>
+    <div>High:<div id="current-high"></div></div>
+    <div>Low:<div id="current-low"></div></div>
+    </div>
   </body>
 </html>
