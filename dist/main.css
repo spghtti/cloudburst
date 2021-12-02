@@ -82,10 +82,12 @@ div {
 }
 #current-temperature {
   font-size: 50px;
+  font-weight: 500;
   margin-bottom: 5px;
 }
 #current-location {
   font-size: 25px;
+  font-weight: 700;
 }
 #current-high-low {
   display: flex;
@@ -107,10 +109,34 @@ div {
   background: rgb(77, 77, 77);
   flex-direction: column;
   width: 50vw;
+  padding: 5px;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
 #summary {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.detailed-stat-header {
+  color: rgb(151, 151, 151);
+  text-transform: uppercase;
+  padding-right: 5px;
+}
+#detailed-stats {
+  display: grid;
+  white-space: nowrap;
+  grid-template-columns: repeat(2, 150px);
+  grid-auto-rows: minmax(20px, auto);
+  gap: 10px;
+  padding-top: 15px;
+}
+.detailed-stat-container {
+  display: flex;
+  width: 50px;
+}
+.detailed-stat {
   color: white;
 }

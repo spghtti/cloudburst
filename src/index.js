@@ -1,4 +1,4 @@
-import { getCurrentWeather, getDetails } from './fetchWeather';
+import { getCurrentWeather, getSummary } from './fetchCurrentWeather';
 
 getCurrentWeather('New York');
-getDetails('New York');
+getSummary('New York');

@@ -29,7 +29,7 @@ function getCurrentWeather(location) {
     });
 }
 
-function getDetails(location) {
+function getSummary(location) {
   const summary = document.getElementById('summary');
   fetch(
     `http://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=e6ea60ae42c4f7ea5dbffec273b1f3a0&units=imperial`,
@@ -48,4 +48,8 @@ function getDetails(location) {
     });
 }
 
-export { getCurrentWeather, getDetails };
+function getDetailedStats {
+  
+}
+
+export { getCurrentWeather, getSummary };
