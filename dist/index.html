@@ -26,11 +26,24 @@
         </input>
       </div>
     </header>
-    <div id="current-weather-card">
-      <div><div id="current-location"></div></div>
-      <div>Current temperature:<div id="current-temperature"></div></div>
-    <div>High:<div id="current-high"></div></div>
-    <div>Low:<div id="current-low"></div></div>
+    <div id="top-cards">
+      <div id="current-weather-card">
+        <div><div id="current-location"></div></div>
+        <div class="weather-icon"><img id="current-weather-icon" src="#"/></div>
+        <div class="current-weather-metric"><div id="current-temperature"></div></div>
+        <div id="current-high-low">
+          <div class="current-weather-metric">High:
+            <div id="current-high"></div>
+          </div>
+          <div id="divider">|</div>
+          <div class="current-weather-metric">Low:
+            <div id="current-low"></div>
+          </div>
+      </div>
+      </div>
+      <div id="detailed-weather">
+        <div id="summary"></div>
+      </div>
     </div>
   </body>
 </html>

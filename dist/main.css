@@ -1,5 +1,6 @@
 div {
   font-family: 'Ubuntu', sans-serif;
+  color: rgb(48, 48, 48);
 }
 html,
 body,
@@ -39,7 +40,12 @@ div {
   color: rgb(10, 185, 238);
 }
 #current-weather-card {
-  border: 4px solid black;
+  color: rgb(48, 48, 48);
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
 }
 #search-container {
   position: absolute;
@@ -60,4 +66,51 @@ div {
   width: 50px;
   background: rgb(10, 185, 238);
   border: none;
+}
+#top-cards {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+#current-high,
+#current-low {
+  padding-left: 5px;
+}
+.current-weather-metric {
+  display: flex;
+  width: auto;
+}
+#current-temperature {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+#current-location {
+  font-size: 25px;
+}
+#current-high-low {
+  display: flex;
+  width: auto;
+}
+#divider {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#current-weather-icon {
+  margin: 0;
+  background: rgb(10, 185, 238);
+  border-radius: 50%;
+  margin-top: 10px;
+}
+#detailed-weather {
+  display: flex;
+  color: white;
+  background: rgb(77, 77, 77);
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#summary {
+  color: white;
 }
