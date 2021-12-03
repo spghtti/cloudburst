@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap"
       rel="stylesheet"
     />
-    <script src="main.js" defer></script>
     <title>cloudburst</title>
   </head>
   <body>
@@ -20,11 +19,13 @@
         <div id="logo1">cloud</div>
         <div id="logo2">Burst</div>
       </div>
-      <div id="search-container">
-        <input type="text" id="searchbar" placeholder="Search for a city">
-          <button id="search-button">Search</button>
-        </input>
-      </div>
+      <form>
+        <div id="search-container">
+            <input type="text" id="searchbar" required pattern="[a-z]" placeholder="Search for a city">
+            </input>
+            <button id="search-button">Search</button>
+        </div>
+      </form>
     </header>
     <div id="top-cards">
       <div id="current-weather-card">
@@ -71,5 +72,6 @@
         </ul>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -66,6 +66,7 @@ div {
   width: 50px;
   background: rgb(10, 185, 238);
   border: none;
+  cursor: pointer;
 }
 #top-cards {
   display: flex;
@@ -129,7 +130,6 @@ div {
   display: grid;
   white-space: nowrap;
   grid-template-columns: repeat(2, 150px);
-  grid-auto-rows: minmax(20px, auto);
   gap: 10px;
   padding-top: 15px;
 }
