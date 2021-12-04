@@ -19,13 +19,12 @@
         <div id="logo1">cloud</div>
         <div id="logo2">Burst</div>
       </div>
-      <form>
-        <div id="search-container">
-            <input type="text" id="searchbar" required pattern="[a-z]" placeholder="Search for a city">
-            </input>
-            <button id="search-button">Search</button>
-        </div>
-      </form>
+      <form novalidate id='search'>
+      <div id="search-container">
+          <input type="search" name='searchbar' id="searchbar" required placeholder="Search for a city">
+          <input type="submit" id="search-button">Search</input>
+      </div>
+     </form>
     </header>
     <div id="top-cards">
       <div id="current-weather-card">
@@ -46,13 +45,13 @@
         <div id="summary"></div>
         <ul id="detailed-stats">
           <li class="detailed-stat-container">
-            <div class="detailed-stat-header">Feels like</div><div id="feels-like" class="detailed-stat">21</div>
+            <div class="detailed-stat-header">Feels like</div><div id="feels-like" class="detailed-stat"></div>
           </li>
           <li class="detailed-stat-container">
-            <div class="detailed-stat-header">Chance of rain</div><div id="rain-chance" class="detailed-stat">11</div>
+            <div class="detailed-stat-header">Chance of rain</div><div id="rain-chance" class="detailed-stat"></div>
           </li>
           <li class="detailed-stat-container">
-            <div class="detailed-stat-header">Sunrise</div><div id="sunrise-time" class="detailed-stat">33</div>
+            <div class="detailed-stat-header">Sunrise</div><div id="sunrise-time" class="detailed-stat"></div>
           </li>
           <li class="detailed-stat-container">
             <div class="detailed-stat-header">Sunset</div><div id="sunset-time" class="detailed-stat"></div>

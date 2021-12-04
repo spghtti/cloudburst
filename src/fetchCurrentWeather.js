@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 /* eslint-disable comma-dangle */
 
-import { getSummary } from './detailedWeather';
+import { getSummary, getDetailedMetrics } from './detailedWeather';
 import { updateHero } from './updateHero';
 
 // app ID e6ea60ae42c4f7ea5dbffec273b1f3a0
@@ -16,6 +16,7 @@ function getCurrentWeather(location) {
       if (response.main !== undefined) {
         updateHero(response);
         getSummary(response);
+        getDetailedMetrics(response);
         console.log(response);
       }
     })

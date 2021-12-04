@@ -6,7 +6,7 @@ function updateHero(response) {
   const currentLow = document.getElementById('current-low');
   const currentIcon = document.getElementById('current-weather-icon');
 
-  currentLocation.innerHTML = response.name;
+  currentLocation.innerHTML = `${response.name}, ${response.sys.country}`;
   currentTemperature.innerHTML = `${Math.round(response.main.temp)}°`;
   currentHigh.innerHTML = `${Math.round(response.main.temp_max)}°`;
   currentLow.innerHTML = ` ${Math.round(response.main.temp_min)}°`;
