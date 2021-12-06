@@ -1,6 +1,5 @@
 div {
   font-family: 'Ubuntu', sans-serif;
-  color: rgb(48, 48, 48);
 }
 html,
 body,
@@ -17,6 +16,7 @@ div {
   min-height: 70px;
   max-height: 100px;
   background: rgb(56, 56, 56);
+  color: rgb(48, 48, 48);
 }
 #logo {
   display: flex;
@@ -110,7 +110,6 @@ div {
   background: rgb(77, 77, 77);
   flex-direction: column;
   width: 50vw;
-  padding: 5px;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -139,4 +138,33 @@ div {
 }
 .detailed-stat {
   color: white;
+}
+#hourly-card {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 40px;
+  background: rgb(56, 56, 56);
+  height: 30vh;
+  width: 100vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.hourly-forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  color: white;
+  border: 4px solid white;
+  width: 200px;
+  height: 250px;
+}
+.hourly-headline {
+  font-size: 25px;
+  font-weight: 700;
+}
+.hourly-temperature {
+  font-size: 50px;
+  font-weight: 500;
 }

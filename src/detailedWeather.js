@@ -54,4 +54,4 @@ function getDetailedMetrics(response) {
   }
 }
 
-export { getSummary, getDetailedMetrics };
+export { getSummary, getDetailedMetrics, getTime };

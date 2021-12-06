@@ -22,7 +22,7 @@
       <form novalidate id='search'>
       <div id="search-container">
           <input type="search" name='searchbar' id="searchbar" required placeholder="Search for a city">
-          <input type="submit" id="search-button">Search</input>
+          <input type="submit" id="search-button" value="Search"></input>
       </div>
      </form>
     </header>
@@ -69,6 +69,18 @@
             <div class="detailed-stat-header">Visibility:</div><div id="visibility" class="detailed-stat"></div>
           </li>
         </ul>
+      </div>
+    </div>
+    <div id="hourly-card">
+      <div class="hourly-forecast" id="hour-1">
+        <div id="hour-1-headline" class="hourly-headline">+1</div>
+        <div class="weather-icon"><img id="current-weather-icon" src="#"/></div>
+        <div class="hourly-temperature">65</div>
+      </div>
+      <div class="hourly-forecast" id="hour-2">
+        <div id="hour-2-headline" class="hourly-headline">+2</div>
+        <div class="weather-icon"><img id="current-weather-icon" src="#"/></div>
+        <div class="hourly-temperature">61</div>
       </div>
     </div>
     <script src="main.js"></script>
