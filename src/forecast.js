@@ -69,7 +69,6 @@ function getForecast(lat, lon) {
   )
     .then((response) => response.json())
     .then((response) => {
-      console.log(response);
       fillHours(response.current.dt + response.timezone_offset);
       setHourlyWeather(response);
       fillWeek(response.current.dt + response.timezone_offset);

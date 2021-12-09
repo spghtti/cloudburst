@@ -46,6 +46,26 @@ h2 {
 #logo2 {
   color: rgb(10, 185, 238);
 }
+#temperature-unit-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+#temperature-unit-switch:hover {
+  text-decoration: underline;
+}
+#current-unit {
+  color: rgb(10, 185, 238);
+  margin-left: 4px;
+  margin-right: 4px;
+}
+#switch-cta {
+  color: white;
+}
 #current-weather-card {
   color: rgb(48, 48, 48);
   display: flex;

@@ -19,7 +19,7 @@ function getCurrentWeather(location) {
         getSummary(response);
         getDetailedMetrics(response);
         getForecast(response.coord.lat, response.coord.lon);
-        console.log(response);
+        localStorage.setItem('location', location);
       }
     })
     .catch((err) => {
