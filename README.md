@@ -5,7 +5,7 @@
 A basic weather app. This project is part of The Odin Project's Full-Stack Javascript course and serves as an introduction to Web APIs.
 
 ## Live project demo
-:point_right: :point_left:
+:point_right: [Click here](https://spghtti.github.io/cloudburst/) :point_left:
 
 ## Built With
 
