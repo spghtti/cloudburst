@@ -15,6 +15,7 @@ A basic weather app. This project is part of The Odin Project's Full-Stack Javas
 - [OpenWeather API](https://openweathermap.org/)
 - [Node](https://www.npmjs.com/)
 - [Webpack](https://webpack.js.org/)
+- [Babel](https://babeljs.io/)
 
 
 ## License
