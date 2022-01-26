@@ -13,7 +13,7 @@ A basic weather app. This project is part of The Odin Project's Full-Stack Javas
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [OpenWeather API](https://openweathermap.org/)
-- [Node](https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/)
 - [Webpack](https://webpack.js.org/)
 - [Babel](https://babeljs.io/)
 
